@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grapg"
+    app:startDestination="@id/about_LudoGame">
+
+    <fragment
+        android:id="@+id/about_LudoGame"
+        android:name="com.example.ludogame.About_LudoGame"
+        android:label="fragment_about__ludo_game"
+        tools:layout="@layout/fragment_about__ludo_game" >
+        <action
+            android:id="@+id/action_about_LudoGame_to_howToPlay"
+            app:destination="@id/howToPlay" />
+    </fragment>
+    <fragment
+        android:id="@+id/howToPlay"
+        android:name="com.example.ludogame.HowToPlay"
+        android:label="fragment_how_to_play"
+        tools:layout="@layout/fragment_how_to_play" />
+</navigation>

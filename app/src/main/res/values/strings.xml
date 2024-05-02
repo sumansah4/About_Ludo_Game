@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ludo Game</string>
+    <string name="click_for_dice_roll">Click For Dice Roll</string>
+    <string name="roll">Roll</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ludo is a strategy board game for two to four players, in which the players race their four tokens from start to finish according to the rolls of a single die.</string>
+
+
+</resources>
